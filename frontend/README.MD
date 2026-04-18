@@ -1,36 +1,29 @@
-# 🌍 Weather Forecasting Web App (PHP + MySQL + OpenWeatherMap)
+# 👤 My Personal Profile Website
 
-## 📌 Overview
-This project is a simple **weather forecasting web application** built with **PHP, MySQL, and the OpenWeatherMap API**.  
-Users can add city names, and the app will display live weather details including:
+A personal profile website with a working contact form backend using PHP and MySQL.
 
-- 🌡️ Temperature  
-- 💧 Humidity  
-- 🌬️ Wind Speed  
-- ☁️ Weather Description  
+## 📌 Live Demo
 
-The app also allows users to delete cities from the list.  
+Currently running locally on XAMPP.
 
----
+## ✨ Features
 
-## 🚀 Features
-- Add a city and store it in the database.  
-- Delete a city from the database.  
-- Fetch live weather data from OpenWeatherMap API.  
-- Display weather details with icons using Bulma CSS.  
-- Database and table creation handled automatically (`IF NOT EXISTS`).  
-
----
+- ✅ Responsive design that works on desktop and mobile
+- ✅ About Me section with personal information
+- ✅ Hobbies section with images (Reading, Coding, Playing Chess)
+- ✅ Vacation Time section
+- ✅ Contact form that saves messages to database
+- ✅ Admin page to view all messages
+- ✅ Clean and modern UI
 
 ## 🛠️ Technologies Used
-- **PHP** → Application logic and API integration.  
-- **MySQL** → Database to store city names.  
-- **OpenWeatherMap API** → Provides live weather data.  
-- **Bulma CSS** → Clean and responsive design.  
-- **XAMPP** → Local server environment (Apache + MySQL).  
 
----
+| Technology | Purpose |
+|------------|---------|
+| HTML5 | Structure of the website |
+| CSS3 | Styling and responsive design |
+| PHP | Backend logic and form handling |
+| MySQL | Database to store contact messages |
+| XAMPP | Local development server |
 
-## ⚙️ Setup Instructions
-1. Install **XAMPP** and start **Apache** + **MySQL**.  
-2. Place the project folder in:  
+## 📁 Project Structure
