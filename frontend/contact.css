@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f1f5f9;
+  color: #333;
+  padding: 10px;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #808182;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: #333;
+}
+
+main {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  margin-top: 20px;
+}
+
+fieldset {
+  border: 2px solid #3d3f40;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+legend {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #838385;
+  padding: 0 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #5f5f61;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: #5c5d5e;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #3a8df4;
+}
+
+address {
+  background-color: #e9ecef;
+  padding: 10px;
+  border-radius: 8px;
+  font-style: normal;
+  margin-top: 10px;
+}
+
+a[href^="tel"] {
+  color: #c9ced5;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a[href^="tel"]:hover {
+  text-decoration: underline;
+}
+
+a[href="#"] {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  color: #0d6efe;
+  font-weight: bold;
+ 
+}
+
+a[href="#"]:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin-top: 20px;
+  background-color: #99999a;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+/* ===== Responsive Layout ===== */
+@media (max-width: 600px) {
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  fieldset {
+    padding: 15px;
+  }
+
+  input,
+  textarea {
+    font-size: 0.95rem;
+  }
+}

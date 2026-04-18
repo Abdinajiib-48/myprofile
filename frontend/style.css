@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+ font-family: Arial, Helvetica, sans-serif;
+  background-color: #b8aeae;
+  color:black;
+  line-height: 1.6;
+  padding: 10px;
+}
+
+header {
+  background-color: #717273;
+  color: white;
+  padding: 8px;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+header h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  margin-top: 10px;
+ 
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+
+}
+
+nav a:hover {
+   background-color: #333;
+  
+  
+}
+
+main {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+  color: #479cf1;
+  margin-top: 20px;
+  text-align: left;
+}
+
+p {
+  margin: 10px 0;
+  text-align: left;
+  font-size: medium;
+  padding: 15px;
+}
+
+figure {
+  text-align: left;
+  margin: 15px 0;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+figcaption {
+  font-style: italic;
+  margin-top: 5px;
+}
+
+ul {
+  padding-left: 20px;
+  margin: 10px 0;
+  font-size: medium;  
+
+}
+#hobbies li::marker{
+  content: "✅";
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #717273;
+  color: white;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+footer time {
+  font-weight: bold;
+}
+
+a[href="#"] {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  color: #5496d8;
+  font-weight: bold;
+}
+
+a[href="#"]:hover {
+  color: #4e4f50;
+}
